@@ -19,6 +19,7 @@ struct PostRow: View {
             VStack(alignment: .leading) {
                 Text(post.title)
                     .font(.headline)
+                    .lineLimit(Int.max)
                 
                 Text(post.subredditNamePrefixed)
                     .font(.subheadline)
