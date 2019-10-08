@@ -38,7 +38,7 @@ struct PostsList: View {
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct PostList_Previews : PreviewProvider {
     static var previews: some View {
         PostsList(listingViewModel: ListingViewModel(service: RedditService()))
     }
